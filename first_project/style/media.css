@@ -1,0 +1,196 @@
+/*   all devices except smartphones*/
+
+@media (min-width: 1401px) {
+    p {
+        font-size: 16px;
+    }
+    .work-about p {
+        font-size: 14px;
+        padding: 0 40px;
+    }
+    h3 {
+        font-size: 18px;
+        margin-bottom: 30px;
+        ;
+    }
+    .line {
+        margin: 30px auto;
+        margin-top: 20px;
+    }
+    .icon {
+        width: 50px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 1400px) {
+    p {
+        font-size: 1.2vw;
+    }
+    .work-about p {
+        font-size: 0.9vw;
+        padding: 0 4vw;
+    }
+    h3 {
+        font-size: 1.4vw;
+        margin-bottom: 1.5vw;
+    }
+    .line {
+        margin: 3vw auto;
+        margin-top: 2vw;
+    }
+    .icon {
+        width: 3vw;
+        margin-bottom: 1.5vw;
+    }
+    .buttons {
+        margin-top: 3vw;
+    }
+    .round {
+        padding: 0.5vw;
+        margin: 0.4vw;
+    }
+    .shop-btn {
+        margin: 4.5vw auto;
+        font-size: 1.2vw;
+    }
+    .address li {
+        font-size: 1.1vw;
+    }
+    .address ul li:first-child {
+        font-size: 1.3vw;
+    }
+    .contact {
+        padding: 8vw;
+    }
+    .contact img {
+        width: 8vw;
+    }
+}
+
+@media(max-width: 1200px) {
+    .menu a {
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 600px) {
+    .main {
+        height: 50vh;
+    }
+    .menu {
+        height: 15vh;
+    }
+    .menu a {
+        font-size: 10px;
+    }
+    .work1-about-img,
+    .work2-about-img {
+        display: none;
+    }
+    .work1,
+    .work2 {
+        flex-wrap: wrap;
+    }
+    .work1-img {
+        width: 100%;
+    }
+    .work2-img {
+        width: 50%;
+    }
+    .work-about {
+        width: 100%;
+        order: 1;
+    }
+    .work-about,
+    .about-content {
+        padding: 20px;
+    }
+    .line {
+        margin: auto;
+        margin-top: 15px;
+    }
+    .icon {
+        width: 40px;
+        margin-bottom: 1.5vw;
+    }
+    .buttons {
+        margin-top: 3vw;
+    }
+    .round {
+        padding: 0.5vw;
+        margin: 0.4vw;
+    }
+    p {
+        font-size: 10px;
+        text-align: justify;
+    }
+    .work-about p {
+        font-size: 10px;
+        padding: 0 15px;
+    }
+    h3 {
+        font-size: 12px;
+        margin-bottom: 1.5vw;
+    }
+    .shop-btn {
+        font-size: 12px;
+    }
+    .contact img {
+        width: 40px;
+    }
+    .footer {
+        padding: 10px 0;
+        align-content: center;
+        justify-content: space-between;
+    }
+    .address {
+        height: 40px;
+        width: 30%;
+        display: none;
+    }
+    .address li {
+        font-size: 8px;
+    }
+    .address ul li:first-child {
+        font-size: 10px;
+    }
+    .media {
+        width: 40%;
+        height: 40px;
+    }
+    .media .fa {
+        margin: 8px 3px;
+        padding: 5px;
+        font-size: 14px;
+    }
+    .media .fa-facebook {
+        padding: 5px 8px;
+    }
+    .copyright {
+        padding-top: 15px;
+        height: 40px;
+        width: 40%;
+        font-size: 8px;
+    }
+    .copyright:after {
+        height: 25px;
+        width: 40px;
+        top: 5px;
+        left: 60px;
+    }
+    .contact h4 {
+        padding: 20px;
+        font-size: 12px;
+    }
+    input[type=text] {
+        padding: 5px;
+        width: 160px;
+        height: 17px;
+        font-size: 12px;
+    }
+    input[type=submit] {
+        height: 31px;
+        width: 50px;
+    }
+}
